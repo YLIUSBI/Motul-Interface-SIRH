@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-03T12:46:35.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="bHkpvAdAKltb0Wsecx0p" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-03T12:48:16.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="L5dCgBpmgy0t1pIb9mar" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -157,7 +157,7 @@
         <mxCell id="a790zgOvJ1IWxHvhooZM-134" value="Date Rejet" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=3" vertex="1" parent="a790zgOvJ1IWxHvhooZM-133">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="a790zgOvJ1IWxHvhooZM-184" value="Code Raison" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="a790zgOvJ1IWxHvhooZM-133">
+        <mxCell id="a790zgOvJ1IWxHvhooZM-184" value="Code Rejet" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="a790zgOvJ1IWxHvhooZM-133">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="a790zgOvJ1IWxHvhooZM-185" value="Desc Rejet" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="a790zgOvJ1IWxHvhooZM-133">
@@ -309,7 +309,7 @@
         <mxCell id="a790zgOvJ1IWxHvhooZM-170" value="Date Rejet" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=3" vertex="1" parent="a790zgOvJ1IWxHvhooZM-169">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="a790zgOvJ1IWxHvhooZM-171" value="Code Raison" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="a790zgOvJ1IWxHvhooZM-169">
+        <mxCell id="a790zgOvJ1IWxHvhooZM-171" value="Code Rejet" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="a790zgOvJ1IWxHvhooZM-169">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="a790zgOvJ1IWxHvhooZM-178" value="Desc Rejet" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="a790zgOvJ1IWxHvhooZM-169">
@@ -351,6 +351,20 @@
         </mxCell>
         <mxCell id="a790zgOvJ1IWxHvhooZM-193" value="IT/Métier" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1100" y="350" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a790zgOvJ1IWxHvhooZM-199" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.013;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a790zgOvJ1IWxHvhooZM-171">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="946" as="sourcePoint" />
+            <mxPoint x="1100" y="946" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a790zgOvJ1IWxHvhooZM-200" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="a790zgOvJ1IWxHvhooZM-199">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-11" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a790zgOvJ1IWxHvhooZM-201" value="IT/Métier" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1110" y="919" width="37" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

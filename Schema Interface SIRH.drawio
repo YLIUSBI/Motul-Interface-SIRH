@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-03T12:42:30.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="SMe077t5uKazIMOVzt0K" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-03T12:46:35.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="bHkpvAdAKltb0Wsecx0p" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -326,6 +326,31 @@
         </mxCell>
         <mxCell id="a790zgOvJ1IWxHvhooZM-173" value="S&#39;il a des fautes dans la vérification,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;eg:&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;référentiel Cost Center non trouvé dans TS&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="596" y="779" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a790zgOvJ1IWxHvhooZM-187" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="270" as="sourcePoint" />
+            <mxPoint x="570" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a790zgOvJ1IWxHvhooZM-188" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="a790zgOvJ1IWxHvhooZM-187">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a790zgOvJ1IWxHvhooZM-189" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a790zgOvJ1IWxHvhooZM-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1007" y="370" as="sourcePoint" />
+            <mxPoint x="1090" y="377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a790zgOvJ1IWxHvhooZM-190" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="a790zgOvJ1IWxHvhooZM-189">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-11" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a790zgOvJ1IWxHvhooZM-193" value="IT/Métier" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1100" y="350" width="37" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

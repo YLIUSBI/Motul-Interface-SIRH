@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T15:19:06.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="HkVjLGSutbz0hDP7QU5u" version="24.5.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-14T15:21:17.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="2JWDvw2OyjexRhxle5bX" version="24.5.4" type="github" pages="4">
   <diagram id="Gr_ahCLBxmVlCf_Igacb" name="TS-&gt;ADP">
     <mxGraphModel dx="1951" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -275,11 +275,13 @@
             <mxPoint x="-9" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3guiy4ApKie6nF49On2z-92" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3guiy4ApKie6nF49On2z-43" target="3guiy4ApKie6nF49On2z-53">
+        <mxCell id="3guiy4ApKie6nF49On2z-92" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3guiy4ApKie6nF49On2z-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="559" y="152" as="sourcePoint" />
+            <mxPoint x="520" y="142" as="sourcePoint" />
             <mxPoint x="700" y="150" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="570" y="142" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3guiy4ApKie6nF49On2z-93" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 10px;&quot;&gt;Table Staging&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 10px;&quot;&gt;(Type colonne définie)&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#46495D;" connectable="0" vertex="1" parent="3guiy4ApKie6nF49On2z-92">

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T15:21:17.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="2JWDvw2OyjexRhxle5bX" version="24.5.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-14T15:24:55.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="1gPU0uTkEg0u-EWEVgxZ" version="24.5.4" type="github" pages="4">
   <diagram id="Gr_ahCLBxmVlCf_Igacb" name="TS-&gt;ADP">
-    <mxGraphModel dx="1951" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1528" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,8 +48,8 @@
             <mxPoint x="-9" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3guiy4ApKie6nF49On2z-19" value="S&#39;il a des erreurs dans la vérification,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;eg:&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;référentiel PPC Cost Center non trouvé&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dans la table LookUp&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;lu_hr_ppc_cost_center, on insère&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;les données dans la table Rejet&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="576.5" y="340" width="240" height="90" as="geometry" />
+        <mxCell id="3guiy4ApKie6nF49On2z-19" value="S&#39;il a des erreurs pour changer&amp;nbsp;&lt;div&gt;le type et la taille des colonnes&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="601.5" y="390" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3guiy4ApKie6nF49On2z-20" value="dwh.fs_hr_employee_transfome_resume" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
           <mxGeometry x="1300" y="259" width="234.5" height="234" as="geometry">
@@ -232,7 +232,7 @@
           <mxGeometry y="260" width="223" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3guiy4ApKie6nF49On2z-80" value="dwh.rj_hr_ts_employee_transforme_adp" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="950" y="280" width="223" height="234" as="geometry">
+          <mxGeometry x="950" y="281" width="223" height="234" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -275,7 +275,7 @@
             <mxPoint x="-9" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3guiy4ApKie6nF49On2z-92" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3guiy4ApKie6nF49On2z-53">
+        <mxCell id="3guiy4ApKie6nF49On2z-92" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBorderColor=default;" edge="1" parent="1" target="3guiy4ApKie6nF49On2z-53">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="142" as="sourcePoint" />
             <mxPoint x="700" y="150" as="targetPoint" />
@@ -443,6 +443,15 @@
         <mxCell id="MDfhbmEaIjhcHJobjm_j-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8Pxe5ndSVJ4KEa_DQYFT-10" target="8Pxe5ndSVJ4KEa_DQYFT-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="870" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ixYiWAKMz7PajZTzQnD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788aa3;" edge="1" parent="1" source="3guiy4ApKie6nF49On2z-47" target="3guiy4ApKie6nF49On2z-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="450" />
+              <mxPoint x="735" y="450" />
+              <mxPoint x="735" y="449" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>

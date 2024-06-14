@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T14:33:31.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="_Un2ENw8M4gecf6S2I4d" version="24.5.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-14T14:39:32.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="WMDOuXuI5s7cRyQ0XY1i" version="24.5.4" type="github" pages="4">
   <diagram id="Gr_ahCLBxmVlCf_Igacb" name="TS-&gt;ADP">
     <mxGraphModel dx="794" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -400,6 +400,49 @@
         <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-10" value="cd_emp_work_accident_ts varchar(5)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=0;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-1">
           <mxGeometry y="234" width="193" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-11" value="dwh.lu_hr_emp_***" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="616.5" y="-339" width="200" height="312" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-12" value="lu_hr_emp_sexe" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;textShadow=0;fontStyle=1;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-13" value="lu_hr_emp_situation_matrimoniale&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-14" value="lu_hr_emp_nationalite" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-15" value="lu_hr_emp_diplome" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-16" value="lu_hr_emp_work_accident" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="130" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-17" value="lu_hr_geo_entite" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="156" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-18" value="lu_hr_ppc_raison_debut_contrat" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="182" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-19" value="lu_hr_ppc_contrat" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="208" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-20" value="lu_hr_ppc_convention_collective" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=1;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="234" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-21" value="lu_hr_ppc_location_country" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=1;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="260" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pxe5ndSVJ4KEa_DQYFT-22" value="lu_hr_ppc_cost_center" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=1;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="8Pxe5ndSVJ4KEa_DQYFT-11">
+          <mxGeometry y="286" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MDfhbmEaIjhcHJobjm_j-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8Pxe5ndSVJ4KEa_DQYFT-10" target="8Pxe5ndSVJ4KEa_DQYFT-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -754,7 +797,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Backup">
     <mxGraphModel dx="794" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />

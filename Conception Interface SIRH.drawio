@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T14:22:23.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vVfqEeJdSeXGgwKgk01V" version="24.5.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-14T14:22:42.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="m29oUrlldyyn4nOZlfty" version="24.5.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="794" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -952,7 +952,7 @@
         <mxCell id="HS0UoX3g9j4fCd0g9-nd-71" value="Target fichier Json&lt;div&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: left; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-family: Calibri; vertical-align: baseline;&quot;&gt;Data Lake Storage Gen2&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;font-family:Calibri;&lt;br/&gt;mso-ascii-font-family:Calibri;mso-fareast-font-family:Calibri;mso-bidi-font-family:&lt;br/&gt;Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;color:white;mso-color-index:14;language:fr;&lt;br/&gt;mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:light1;&lt;br/&gt;mso-style-textfill-fill-color:white;mso-style-textfill-fill-alpha:100.0%&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
           <mxGeometry x="1277" y="869" width="137" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HS0UoX3g9j4fCd0g9-nd-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HS0UoX3g9j4fCd0g9-nd-54" target="HS0UoX3g9j4fCd0g9-nd-16">
+        <mxCell id="HS0UoX3g9j4fCd0g9-nd-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HS0UoX3g9j4fCd0g9-nd-54" target="HS0UoX3g9j4fCd0g9-nd-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1183" y="433" as="sourcePoint" />
             <mxPoint x="1250" y="610" as="targetPoint" />
@@ -964,7 +964,7 @@
             <mxPoint x="-9" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HS0UoX3g9j4fCd0g9-nd-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HS0UoX3g9j4fCd0g9-nd-62" target="HS0UoX3g9j4fCd0g9-nd-18">
+        <mxCell id="HS0UoX3g9j4fCd0g9-nd-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HS0UoX3g9j4fCd0g9-nd-62" target="HS0UoX3g9j4fCd0g9-nd-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1185" y="848" as="sourcePoint" />
             <mxPoint x="1276" y="659" as="targetPoint" />

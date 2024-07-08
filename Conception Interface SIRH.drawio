@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T10:02:24.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="T-8-26mb2ZXJZWbyX4Fl" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-08T10:03:44.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_JmkwpkCUOpK3h0n1aI6" version="24.6.4" type="github" pages="5">
   <diagram name="TS-&gt;ADP" id="yulrE01rxTNECKBdnegH">
     <mxGraphModel dx="1886" dy="1975" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -431,7 +431,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3vcec0SoRhcFFukcSskg-1" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Resumé TS -&amp;gt; ADP OK&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#46495D;" connectable="0" vertex="1" parent="3vcec0SoRhcFFukcSskg-0">
+        <mxCell id="3vcec0SoRhcFFukcSskg-1" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Flux génération&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#46495D;" connectable="0" vertex="1" parent="3vcec0SoRhcFFukcSskg-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-9" y="-10" as="offset" />
           </mxGeometry>

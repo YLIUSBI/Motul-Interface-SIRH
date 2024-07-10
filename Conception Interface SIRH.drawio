@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T08:08:39.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="nPUGBVsLAWCOM9_B6Bf4" version="24.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-10T15:31:40.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="igLpZGenhTaizdMtMWPU" version="24.6.4" type="github" pages="6">
   <diagram name="TS-&gt;ADP" id="yulrE01rxTNECKBdnegH">
     <mxGraphModel dx="3044" dy="2634" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -440,7 +440,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copie de TS-&gt;ADP" id="-G0cl_Pjko0eEDcAbZ5l">
-    <mxGraphModel dx="1034" dy="1563" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1558" dy="1662" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RhCAjsB_7TuDE9kiOI6Z-0" />
         <mxCell id="RhCAjsB_7TuDE9kiOI6Z-1" parent="RhCAjsB_7TuDE9kiOI6Z-0" />
@@ -597,7 +597,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RhCAjsB_7TuDE9kiOI6Z-41" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Procedure&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Create external table Staging&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Location :talentsoft/&lt;b&gt;temp&lt;/b&gt;/*.&lt;b&gt;parquet&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#46495D;" parent="RhCAjsB_7TuDE9kiOI6Z-40" connectable="0" vertex="1">
+        <mxCell id="RhCAjsB_7TuDE9kiOI6Z-41" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Procedure&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Create external table Staging&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Location :talentsoft/&lt;b&gt;staging&lt;/b&gt;/*.&lt;b&gt;parquet&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#46495D;" parent="RhCAjsB_7TuDE9kiOI6Z-40" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="20" y="-10" as="offset" />
           </mxGeometry>
@@ -881,6 +881,16 @@
         </mxCell>
         <mxCell id="2_895-hSrvha5z7ZBwGH-2" value="Logic APP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RhCAjsB_7TuDE9kiOI6Z-1">
           <mxGeometry x="1585" y="522" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_895-hSrvha5z7ZBwGH-3" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Si (J-1) absent, alors utilisation de J-x(fichier plus récent),&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sinon, fichier J&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#46495D;" connectable="0" vertex="1" parent="RhCAjsB_7TuDE9kiOI6Z-1">
+          <mxGeometry x="226" y="332.0000000000002" as="geometry">
+            <mxPoint x="-24" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_895-hSrvha5z7ZBwGH-4" value="Load Process:&amp;nbsp;&lt;div&gt;* Delete J&amp;nbsp;&lt;/div&gt;&lt;div&gt;* Insert J&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#46495D;" connectable="0" vertex="1" parent="RhCAjsB_7TuDE9kiOI6Z-1">
+          <mxGeometry x="109" y="-40.99999999999977" as="geometry">
+            <mxPoint x="5" y="24" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

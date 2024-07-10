@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T15:31:40.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="igLpZGenhTaizdMtMWPU" version="24.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-10T15:32:40.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Q25ZNHSvlEMi8O5XV9mx" version="24.6.4" type="github" pages="6">
   <diagram name="TS-&gt;ADP" id="yulrE01rxTNECKBdnegH">
     <mxGraphModel dx="3044" dy="2634" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -471,9 +471,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RhCAjsB_7TuDE9kiOI6Z-7" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Procedure&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Create external table Source&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Location :talentsoft/&lt;b&gt;source&lt;/b&gt;/*.&lt;b&gt;parquet&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#46495D;" parent="RhCAjsB_7TuDE9kiOI6Z-6" connectable="0" vertex="1">
+        <mxCell id="RhCAjsB_7TuDE9kiOI6Z-7" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Procedure:&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;ods.ps_hr_ts_LoadDataToExternalSourceTable&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Create external table Source&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Location :talentsoft/&lt;b&gt;source&lt;/b&gt;/*.&lt;b&gt;parquet&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#46495D;" parent="RhCAjsB_7TuDE9kiOI6Z-6" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-10" y="-81" as="offset" />
+            <mxPoint x="-23" y="-96" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RhCAjsB_7TuDE9kiOI6Z-8" value="ADP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="RhCAjsB_7TuDE9kiOI6Z-1" vertex="1">

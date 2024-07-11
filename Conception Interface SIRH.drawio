@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T08:35:25.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="AGTQXYrnOiKmqGVBipbQ" version="24.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-11T08:36:35.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6hh-qnmTRq1HKcdEDddE" version="24.6.4" type="github" pages="6">
   <diagram name="TS-&gt;ADP" id="yulrE01rxTNECKBdnegH">
     <mxGraphModel dx="3044" dy="2634" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -440,7 +440,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copie de TS-&gt;ADP" id="-G0cl_Pjko0eEDcAbZ5l">
-    <mxGraphModel dx="3115" dy="2154" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3115" dy="1385" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RhCAjsB_7TuDE9kiOI6Z-0" />
         <mxCell id="RhCAjsB_7TuDE9kiOI6Z-1" parent="RhCAjsB_7TuDE9kiOI6Z-0" />
